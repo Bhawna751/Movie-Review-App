@@ -6,14 +6,14 @@ import ReviewForm from '../reviewForm/ReviewForm';
 
 import React from 'react';
 
-const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
+const Reviews = ({getMoviesData,movie,reviews,setReviews}) => {
 
     const revText = useRef();
     let params = useParams();
     const movieId = params.movieId;
 
     useEffect(()=>{
-        getMovieData(movieId);
+        getMoviesData(movieId);
     },[])
 
     const addReview = async(e)=>{

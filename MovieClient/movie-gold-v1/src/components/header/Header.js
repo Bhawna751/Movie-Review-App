@@ -13,10 +13,10 @@ const Header = () => {
                 <Navbar.Brand href="/" style={{"color":'gold'}}>
                     <FontAwesomeIcon icon ={faVideoSlash}/>Gold
                 </Navbar.Brand>
-                <NavbarBrand.Toggle aria-controls="navbarScroll"/>
+                <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="me-auto my-2 my0lg-0"
+                        className="me-auto my-2 my-lg-0"
                         style={{maxHeight:'100px'}}
                         navbarScroll
                     >

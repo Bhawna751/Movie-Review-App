@@ -50,8 +50,8 @@
     padding:0px;
     margin:0px;
     color:gold;
-    font: size 3rem;
-    transition: 0.3s;
+    font-size: 3rem;
+    
     cursor: pointer;
 }
 .play-button-icon:hover{
